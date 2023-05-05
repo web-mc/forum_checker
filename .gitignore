@@ -1,0 +1,16 @@
+venv_*
+logs
+junk
+caddy_logs
+__pycache__
+test.py
+site_logs/
+/static/files
+.vscode
+old/
+scripts
+files/
+read.txt
+alembic.log
+caddy_access.log
+.env

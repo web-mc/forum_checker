@@ -1,0 +1,7 @@
+loguru
+notifiers
+python-dotenv
+requests
+sanic
+sanic-ext
+Jinja2
