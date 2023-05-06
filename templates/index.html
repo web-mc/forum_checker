@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    {% include "head.html" %}
 </head>
+
 <body>
-    {{seq}}
+    <h1>Find forum</h1>
+    <div class="site_description">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eius repudiandae eaque sit? Exercitationem
+            cum, neque perspiciatis illum hic aliquam quae commodi iusto ducimus aperiam, tempora reprehenderit qui
+            delectus officia.</p>
+    </div>
+    <div class="task_form">
+        <form action="/" method="post">
+            <label for="urls">1 url per row, max 100 rows.</label>
+            <input type="text" name="urls" id="urls" required>
+            <button class="btn-urls" type="submit">Check urls</button>
+        </form>
+    </div>
 </body>
+
+<footer>
+    {% include "footer.html" %}
+</footer>
+
 </html>
