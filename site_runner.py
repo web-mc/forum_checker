@@ -1,6 +1,7 @@
 from app import app
-import views
+import uvicorn
+from views import  main, errors
 
 
 if __name__ == "__main__":
-    app.run(debug=True, auto_reload=True)
+    uvicorn.run("site_runner:app", port=5000, reload=True)

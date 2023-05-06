@@ -1,7 +1,7 @@
-loguru
 notifiers
 python-dotenv
 requests
-sanic
-sanic-ext
-Jinja2
+jinja2
+fastapi
+uvicorn[standard]
+sqlalchemy
